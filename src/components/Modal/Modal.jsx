@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Modal = ({isModelOpen, setModelOpen, children}) => {
     if(!isModelOpen){
         return null
